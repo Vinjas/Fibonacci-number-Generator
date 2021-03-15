@@ -17,9 +17,9 @@ function fibo(base, limite) {
         }
         output.innerHTML = total.filter(num => num >= base)
         } else {
-          output.innerHTML = "Introduce un número"
+          output.innerHTML = "Introduce un número positivo"
         }
       } else {
-        output.innerHTML = "Introduce un número"
+        output.innerHTML = "Introduce un número válido"
       }
 }
