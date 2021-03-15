@@ -1,6 +1,3 @@
-# hello-world
-Testing repositories
+# Fibbonacci Number Converter
 
-
-
-Otra linea mas de codigo
+Testing basic Fibbonnacci algorithm with HTML5 and JS.

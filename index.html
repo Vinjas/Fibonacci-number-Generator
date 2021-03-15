@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"
+    <title>Conversor de números de Fibbonacci</title>
+
+    <script src="fiboo.js"></script>
+
+</head>
+<body>
+    <div id="cajatexto">
+        <h1>Números de Fibbonacci</h1>
+        <p>Introduce un número y la cantidad de número que deseas obtener.</p>
+    </div>
+
+    <div id="cajatexto">
+        <form>
+            <label for="fibonacci1">Número base:<br></label>
+            <input type="text" placeholder="Introduce el número base..." id="fibonacci1" name="fibonacci1">
+            <br>
+            <label for="fibonacci2">Límite:<br></label>
+            <input type="text" placeholder="Introduce el número máximo..." id="fibonacci2" name="fibonacci2">
+            <br>
+            <input type="button" onclick="fibo()" value="Calcular">
+        </form>
+    </div>
+
+
+</body>
+</html>
