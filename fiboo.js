@@ -9,13 +9,20 @@ function fibo(base, limite) {
         var sum
         var total = [0, 1]
     
-        for(let i = 0; i <= limite; i++) {
+        for(let i = 0; i <= limite + base; i++) {
           sum=n1+n2
           n1=n2
           n2=sum
           total.push(n2)
         }
-        output.innerHTML = total.filter(num => num >= base)
+        total = total.filter(num => num >= base)
+        
+        while (total.length != limite) {
+          total.pop()
+        } 
+
+        output.innerHTML = total
+
         } else {
           output.innerHTML = "Introduce un número positivo"
         }
