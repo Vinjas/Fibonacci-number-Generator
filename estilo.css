@@ -37,8 +37,5 @@ input:hover {
 #output {
     margin: 20px;
     font-size: 30px;
-    border: 5px;
-    border-style: solid;
-    border-color: white;
     background-color: white;
 }
